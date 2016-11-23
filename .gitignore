@@ -1,6 +1,5 @@
 # Pre-parsed Python
 __pycache__
-*.pyc
 
 # Virtualenvs
 venv
@@ -17,9 +16,6 @@ staticfiles
 
 # Django User-uploaded Files
 mediafiles
-
-# Secrets
-.env
 
 # macOS
 .DS_Store

@@ -1,0 +1,1 @@
+"""goalsaver Admin Configuration."""
