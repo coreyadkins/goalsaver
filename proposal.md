@@ -66,8 +66,14 @@ Python will be used to generate new Goals.
 
 Thermometers will be displayed using an outside library or module TBD.
 
+## Schedule
+- Models- Easy, 4 hours
+- User Login and Creation Pages- Easy, 2 hours
+- Custom home page UI- Hard, 8 hours
+- UI Drag and Drop- Medium, 4 hours
+
 ## New technologies implemented in this projected
-- React for drag and drop reordering
+- ReactJS for UI DOM manipulation
 
 ## Future Work
 - Build in currency type into goal setup instead of user setup
