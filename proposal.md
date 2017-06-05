@@ -1,4 +1,4 @@
-#Proposal: GoalSaver
+# Proposal: GoalSaver
 
 *GoalSaver* is a web app that allows users to add and keep track of financial goals.
 
@@ -8,17 +8,17 @@ Users can either save for multiple goals simultaneously, choosing how much to sp
 
 Each goal will also display a suggested monthly amount to save for each month, which is the amount needed divided by months until the projected date of completion.
 
-##Specific Functionality
+## Specific Functionality
 
-###Login page
+### Login page
 All users who are not logged in will be redirected to the login page first, which will display a simple form for them to enter their username and password.
 
 This page will have a link to an account creation page.
 
-###Account creation page
+### Account creation page
 This page will allow a user to create an account by entering in a Username, a password, and a currency type. (Selection in dropdown or entering in via text?)
 
-###Home page
+### Home page
 The customized homepage for the user.
 
 This will display the goals they have inputted, divided into "Currently Saving For" and "Future Goals."
@@ -37,9 +37,9 @@ Once a goal is met, it will display a "Congratulations!" notification window. Th
 
 When a goal has expired without being completed, the goal thermometer will be outlined in red, and each time the user logs in they will receive a notification window which will ask if they would like to change the end-date or delete the goal, or neither by closing the window.
 
-##Data Model
+## Data Model
 
-###Goal
+### Goal
 Each Goal is an object containing data entered by the user pertaining to a specific savings goal.
 - Unique ID
 - User ID
@@ -52,12 +52,12 @@ Each Goal is an object containing data entered by the user pertaining to a speci
 - Thermometer color
 - Completed (true/false)
 
-###User
+### User
 Each User will have a Unique ID, which will be used for storing and retrieving their specific goals. They will also have a Currency Type that they choose on account creation, which will affect how their goals will be displayed.
 - Unique ID
 - Currency Type
 
-##Technical Components
+## Technical Components
 Goal and User models will be stored and searched using Django Models in a PostgreSQL database.
 
 Creation and displaying of goals, and entering of savings, will be handled via a custom UI. Drag and drop reordering of goals will be handled with ReactJS.
@@ -66,9 +66,9 @@ Python will be used to generate new Goals.
 
 Thermometers will be displayed using an outside library or module TBD.
 
-##New technologies implemented in this projected
+## New technologies implemented in this projected
 - React for drag and drop reordering
 
-##Future Work
+## Future Work
 - Build in currency type into goal setup instead of user setup
 - Allow multiple currency types between goals, have GoalSaver convert the inputted currency into the various other currencies using current exchange rates.
