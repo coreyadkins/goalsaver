@@ -78,3 +78,8 @@ Thermometers will be displayed using an outside library or module TBD.
 ## Future Work
 - Build in currency type into goal setup instead of user setup
 - Allow multiple currency types between goals, have GoalSaver convert the inputted currency into the various other currencies using current exchange rates.
+
+## Questions
+- Do I want to store a time stamp entry with each "deposit" made into the system, so that it can be recalled later?
+- How do you change goal amounts?
+- Can you make completed goals back into current goals by changing the amounts?
